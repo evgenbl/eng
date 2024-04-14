@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Словари",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 14, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nАлфавит\n\n\n\n\n\n\nnews\n\n\nalphabet\n\n\n\n\n\n\n\n\n\nApr 11, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Цифры\n\n\n\n\n\n\nnews\n\n\nnambers\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nАлфавит\n\n\n\n\n\n\nnews\n\n\nalphabet\n\n\n\n\n\n\n\n\n\nApr 11, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -32,6 +32,97 @@
     "href": "posts/alphabet/index.html",
     "title": "Алфавит",
     "section": "",
-    "text": "Строчные буквы\na b c d e f g h i j k l m n o p q r s t u v w x y z\n\n\nПрописные буквы\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\nВ обратную сторону\nz y x w v u t s r q p o n m l k j i h g f e d c b a\n\n\nВ обратную сторону прописные буквы\nZ Y X W V U T S R Q P O N M L K J I H G F E D C B A\n\n\nХАРАКТЕРИСТИКИ АНГЛИЙСКОГО АЛФАВИТА\nКоличество букв 26\nИз них согласных - 21 штука (B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z)\nГласных - 6 штук (A, E, I, O, U, Y)\nБуква Y - считается одновременно как и гласная так и согласная.\nА звуков в полтора раза больше — целых 44.\nМногие буквы имеют несколько вариантов произношения.\nНапример, буква С в слове cat звучит как [k], а в слове city — как [siː].\n\n\nИнтересный факт\nСамые часто используемые буквы английского алфавита — E и T.\nА вот Z и Q — самые редкие.\n\n\n\nАнглийский алфавит с названием букв, транскрипцией, русским произношением\nA a - эй [eɪ]\nB b - би [biː]\nC c - си [siː]\nD d - ди [diː]\nE e - и [iː]\nF f - эф [ef]\nG g - джи [dʒiː]\nH h - эйч [eɪtʃ]\nI i - ай [aɪ]\nJ j - джей [dʒeɪ]\nK k - кей [keɪ]\nL l - эл [el]\nM m - эм [em]\nN n - эн [ɛn]\nO o - оу [əʊ]\nP p - пи [piː]\nQ q - кью [kjuː]\nR r - а, ар [ɑː, ar]\nS s - эс [es]\nT t - ти [tiː]\nU u - ю [juː]\nV v - ви [viː]\nW w - дабл-ю [’dʌbljuː]\nX x - экс [eks]\nY y - уай [waɪ]\nZ z - зед,зи [zɛd, ziː]"
+    "text": "a b c d e f g h i j k l m n o p q r s t u v w x y z"
+  },
+  {
+    "objectID": "posts/alphabet/index.html#строчные-буквы",
+    "href": "posts/alphabet/index.html#строчные-буквы",
+    "title": "Алфавит",
+    "section": "",
+    "text": "a b c d e f g h i j k l m n o p q r s t u v w x y z"
+  },
+  {
+    "objectID": "posts/alphabet/index.html#прописные-буквы",
+    "href": "posts/alphabet/index.html#прописные-буквы",
+    "title": "Алфавит",
+    "section": "Прописные буквы",
+    "text": "Прописные буквы\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z"
+  },
+  {
+    "objectID": "posts/alphabet/index.html#в-обратную-сторону",
+    "href": "posts/alphabet/index.html#в-обратную-сторону",
+    "title": "Алфавит",
+    "section": "В обратную сторону",
+    "text": "В обратную сторону\nz y x w v u t s r q p o n m l k j i h g f e d c b a"
+  },
+  {
+    "objectID": "posts/alphabet/index.html#в-обратную-сторону-прописные-буквы",
+    "href": "posts/alphabet/index.html#в-обратную-сторону-прописные-буквы",
+    "title": "Алфавит",
+    "section": "В обратную сторону прописные буквы",
+    "text": "В обратную сторону прописные буквы\nZ Y X W V U T S R Q P O N M L K J I H G F E D C B A"
+  },
+  {
+    "objectID": "posts/alphabet/index.html#характеристики-английского-алфавита",
+    "href": "posts/alphabet/index.html#характеристики-английского-алфавита",
+    "title": "Алфавит",
+    "section": "ХАРАКТЕРИСТИКИ АНГЛИЙСКОГО АЛФАВИТА",
+    "text": "ХАРАКТЕРИСТИКИ АНГЛИЙСКОГО АЛФАВИТА\nКоличество букв 26\nИз них согласных - 21 штука (B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z)\nГласных - 6 штук (A, E, I, O, U, Y)\nБуква Y - считается одновременно как и гласная так и согласная.\nА звуков в полтора раза больше — целых 44.\nМногие буквы имеют несколько вариантов произношения.\nНапример, буква С в слове cat звучит как [k], а в слове city — как [siː]."
+  },
+  {
+    "objectID": "posts/alphabet/index.html#интересный-факт",
+    "href": "posts/alphabet/index.html#интересный-факт",
+    "title": "Алфавит",
+    "section": "Интересный факт",
+    "text": "Интересный факт\nСамые часто используемые буквы английского алфавита — E и T.\nА вот Z и Q — самые редкие."
+  },
+  {
+    "objectID": "posts/alphabet/index.html#английский-алфавит-с-названием-букв-транскрипцией-русским-произношением",
+    "href": "posts/alphabet/index.html#английский-алфавит-с-названием-букв-транскрипцией-русским-произношением",
+    "title": "Алфавит",
+    "section": "Английский алфавит с названием букв, транскрипцией, русским произношением",
+    "text": "Английский алфавит с названием букв, транскрипцией, русским произношением\nA a - эй [eɪ]\nB b - би [biː]\nC c - си [siː]\nD d - ди [diː]\nE e - и [iː]\nF f - эф [ef]\nG g - джи [dʒiː]\nH h - эйч [eɪtʃ]\nI i - ай [aɪ]\nJ j - джей [dʒeɪ]\nK k - кей [keɪ]\nL l - эл [el]\nM m - эм [em]\nN n - эн [ɛn]\nO o - оу [əʊ]\nP p - пи [piː]\nQ q - кью [kjuː]\nR r - а, ар [ɑː, ar]\nS s - эс [es]\nT t - ти [tiː]\nU u - ю [juː]\nV v - ви [viː]\nW w - дабл-ю [’dʌbljuː]\nX x - экс [eks]\nY y - уай [waɪ]\nZ z - зед,зи [zɛd, ziː]"
+  },
+  {
+    "objectID": "posts/numbers/index.html",
+    "href": "posts/numbers/index.html",
+    "title": "Цифры",
+    "section": "",
+    "text": "Количественные числительные (cardinal numbers) указывают на количество объектов.\nОтвечают на вопрос «сколько?».\n1 – one(один)\n2 – two(два)\n3 – three(три)\n4 – four(четыре)\n5 – five(пять)\n6 – six(шесть)\n7 – seven(семь)\n8 – eight(восемь)\n9 – nine(девять)\n10 – ten(десять)\n11 – eleven(одиннадцать)\n12 – twelve(двенадцать)\n13 – thirteen(тринадцать)\n14 – fourteen(четырнадцать)\n15 – fifteen(пятнадцать)\n16 – sixteen(шестнадцать)\n17 – seventeen(семнадцать)\n18 – eighteen(восемнадцать)\n19 – nineteen(девятнадцать)\n20 – twenty(двадцать)\n21 – twenty-one(двадцать один)\n22 – twenty-two(двадцать два)\n23 – twenty-three(двадцать три)\n24 – twenty-four(двадцать четыре)\n25 – twenty-five(двадцать пять)\n26 – twenty-six(двадцать шесть)\n27 – twenty-seven(двадцать семь)\n28 – twenty-eight(двадцать восемь)\n29 – twenty-nine(двадцать девять)\n30 – thirty(тридцать)\n40 – forty((сорок))\n50 – fifty(пятьдесят)\n60 – sixty(шестьдесят)\n70 – (семьдесят) seventy\n80 – eighty(восемьдесят)\n90 – ninety(девяносто)\n100 – one hundred(сто)\n200 – two hundred(двести)\n1000 – one thousand(тысяча)\n1200 – one thousand two hundred / twelve hundred(тысяча двести)\n100 000 – one hundred thousand(сто тысяч)\n1 000 000 – one million(миллион)\n1 000 000 000 – one billion (миллиард)"
+  },
+  {
+    "objectID": "posts/numbers/index.html#количественные-числительные",
+    "href": "posts/numbers/index.html#количественные-числительные",
+    "title": "Цифры",
+    "section": "",
+    "text": "Количественные числительные (cardinal numbers) указывают на количество объектов.\nОтвечают на вопрос «сколько?».\n1 – one(один)\n2 – two(два)\n3 – three(три)\n4 – four(четыре)\n5 – five(пять)\n6 – six(шесть)\n7 – seven(семь)\n8 – eight(восемь)\n9 – nine(девять)\n10 – ten(десять)\n11 – eleven(одиннадцать)\n12 – twelve(двенадцать)\n13 – thirteen(тринадцать)\n14 – fourteen(четырнадцать)\n15 – fifteen(пятнадцать)\n16 – sixteen(шестнадцать)\n17 – seventeen(семнадцать)\n18 – eighteen(восемнадцать)\n19 – nineteen(девятнадцать)\n20 – twenty(двадцать)\n21 – twenty-one(двадцать один)\n22 – twenty-two(двадцать два)\n23 – twenty-three(двадцать три)\n24 – twenty-four(двадцать четыре)\n25 – twenty-five(двадцать пять)\n26 – twenty-six(двадцать шесть)\n27 – twenty-seven(двадцать семь)\n28 – twenty-eight(двадцать восемь)\n29 – twenty-nine(двадцать девять)\n30 – thirty(тридцать)\n40 – forty((сорок))\n50 – fifty(пятьдесят)\n60 – sixty(шестьдесят)\n70 – (семьдесят) seventy\n80 – eighty(восемьдесят)\n90 – ninety(девяносто)\n100 – one hundred(сто)\n200 – two hundred(двести)\n1000 – one thousand(тысяча)\n1200 – one thousand two hundred / twelve hundred(тысяча двести)\n100 000 – one hundred thousand(сто тысяч)\n1 000 000 – one million(миллион)\n1 000 000 000 – one billion (миллиард)"
+  },
+  {
+    "objectID": "posts/numbers/index.html#порядковые-числительные",
+    "href": "posts/numbers/index.html#порядковые-числительные",
+    "title": "Цифры",
+    "section": "Порядковые числительные",
+    "text": "Порядковые числительные\nПорядковые числительные (ordinal numerals) указывают на порядок объектов, их порядковый номер. Они отвечают на вопрос «который по счету?».\nБольшинство порядковых числительных образуется с помощью окончания -th\n(произносится что то наподобие русского звука -ф)\n1 – first(первый)\n2 – second(второй)\n3 – third(третий)\n4 – fourth [fɔːθ] (четвертый)\n5 – fifth(пятый)\n6 – sixth [sɪksθ] (шестой)\n7 – seventh(седьмой)\n8 – eighth(восьмой)\n9 – ninth(девятый)\n10 – tenth(десятый)\n11 – eleventh(одиннадцатый)\n12 – twelfth(двенадцатый)\n13 – thirteenth(тринадцатый)\n14 – fourteenth(четырнадцатый)\n15 – fifteenth(пятнадцатый)\n16 – sixteenth(шестнадцатый)\n17 – seventeenth(семнадцатый)\n18 – eighteenth(восемнадцатый)\n19 – nineteenth(девятнадцатый)\n20 – twentieth(двадцатый)\n21 – twenty-first(двадцать первый)\n22 – twenty-second(двадцать второй)\n23 – twenty-third(двадцать третий)\n24 – twenty-fourth(двадцать четвертый)\n25 – twenty-fifth(двадцать пятый)\n26 – twenty-sixth(двадцать шестой)\n27 – twenty-seventh(двадцать седьмой)\n28 – twenty-eighth(двадцать восьмой)\n29 – twenty-ninth(двадцать девятый)\n30 – thirtieth(тридцатый)\n40 – fortieth(сороковой)\n50 – fiftieth(пятидесятый)\n60 – sixtieth(шестидесятый)\n70 – seventieth(семидесятый)\n80 – eightieth(восьмидесятый)\n90 – ninetieth(девяностый)\n100 – hundredth(сотый)\n200 – two hundredth(двухсотый)\n1000 – thousandth(тысячный)\n1200 – one thousand two hundredth(тысяча двухсотый)\n100 000 – hundred thousandth(стотысячный)\n1 000 000 – millionth(миллионный)\n1 000 000 000 – billionth (миллиардный)\nСуществительные, перед которыми стоят порядковые числительные, используются с определенным артиклем the. Они отвечают на вопрос «который по счету?»."
+  },
+  {
+    "objectID": "posts/numbers/index.html#образование-числительных-от-20-до-90",
+    "href": "posts/numbers/index.html#образование-числительных-от-20-до-90",
+    "title": "Цифры",
+    "section": "Образование числительных от 20 до 90",
+    "text": "Образование числительных от 20 до 90\nЧисла, обозначающие десятки, выглядят вот так:\ntwenty – двадцать\nthirty – тридцать\nforty – сорок\nfifty – пятьдесят\nsixty – шестьдесят\nseventy – семьдесят\neighty – восемьдесят\nninety – девяносто"
+  },
+  {
+    "objectID": "posts/numbers/index.html#составные-числительные",
+    "href": "posts/numbers/index.html#составные-числительные",
+    "title": "Цифры",
+    "section": "Составные числительные",
+    "text": "Составные числительные\nОни образуются как и в русском языке - сначала идет десяток к которому прибавляется единица:\ntwenty-one – двадцать один\nninety-three – девяносто три\nforty-five – сорок пять\neighty-seven – восемьдесят семь\nsixty-nine – шестьдесят девять\nСотни в английском языке обозначаются словом “hundred”, поэтому для образования любого числа от 100 до 1000 перед сотней нужно указать ее количество, а затем десятки и единицы.\n\nПримеры:\nСто (100) – one + hundred = one hundred\nТриста (300) – three + hundred = three hundred\nВАЖНО! Между сотнями и десятками ставится AND.\nДвести двадцать шесть (226) – two hundred and twenty-six\nЧетыреста тридцать восемь (438) – four hundred and thirty-eight\nШестьсот одиннадцать (611) – six hundred and eleven\nПятьсот пятьдесят (550) – five hundred and fifty\n\n\nПримеры использования:\nThere are three hundred and sixty-five days in a year – В году триста шестьдесят пять дней.\nHe passed away seven hundred and twenty years ago – Он скончался семьсот двадцать лет назад.\nAmerica was discovered more than five hundred years ago – Америку открыли более пятисот лет назад.\nОт 1000 и далее\n1001 – one thousand and one\n1345 – one thousand, three hundred and forty-five\n3000 – three thousand\n10 000 – ten thousand\n100 000 – one hundred thousand\n1 000 000 – one million\n1 000 000 000 – one billion"
+  },
+  {
+    "objectID": "posts/numbers/index.html#написание-чисел-цифрами",
+    "href": "posts/numbers/index.html#написание-чисел-цифрами",
+    "title": "Цифры",
+    "section": "Написание чисел цифрами",
+    "text": "Написание чисел цифрами\nПри употреблении порядковых числительных есть сокращения, которые образуются путем откидывания артикля и добавления к числу последних двух букв числительного.\n\nПримеры образования:\nthe first– 1st(первый)\nthe second – 2nd(второй)\nthe third – 3rd(третий)\nthe fourth – 4th(четвертый)\nthe eleventh – 11th(одиннадцатый)\nthe twentieth – 20th(двадцатый)\nthe twenty first – 21st(двадцать первый)\nПри прочтении числа по-английски все равно необходимо добавлять артикль.\nНапример:\n2nd prize – the second prize."
   }
 ]
