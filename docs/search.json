@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Словари",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 14, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nApr 11, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nApr 14, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nАлфавит\n\n\n\n\n\n\nnews\n\n\nalphabet\n\n\n\n\n\n\n\n\n\nApr 11, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,5 +26,12 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/alphabet/index.html",
+    "href": "posts/alphabet/index.html",
+    "title": "Алфавит",
+    "section": "",
+    "text": "Строчные буквы\na b c d e f g h i j k l m n o p q r s t u v w x y z\n\n\nПрописные буквы\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\n\nВ обратную сторону\nz y x w v u t s r q p o n m l k j i h g f e d c b a\n\n\nВ обратную сторону прописные буквы\nZ Y X W V U T S R Q P O N M L K J I H G F E D C B A\n\n\nХАРАКТЕРИСТИКИ АНГЛИЙСКОГО АЛФАВИТА\nКоличество букв 26\nИз них согласных - 21 штука (B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z)\nГласных - 6 штук (A, E, I, O, U, Y)\nБуква Y - считается одновременно как и гласная так и согласная.\nА звуков в полтора раза больше — целых 44.\nМногие буквы имеют несколько вариантов произношения.\nНапример, буква С в слове cat звучит как [k], а в слове city — как [siː].\n\n\nИнтересный факт\nСамые часто используемые буквы английского алфавита — E и T.\nА вот Z и Q — самые редкие.\n\n\n\nАнглийский алфавит с названием букв, транскрипцией, русским произношением\nA a - эй [eɪ]\nB b - би [biː]\nC c - си [siː]\nD d - ди [diː]\nE e - и [iː]\nF f - эф [ef]\nG g - джи [dʒiː]\nH h - эйч [eɪtʃ]\nI i - ай [aɪ]\nJ j - джей [dʒeɪ]\nK k - кей [keɪ]\nL l - эл [el]\nM m - эм [em]\nN n - эн [ɛn]\nO o - оу [əʊ]\nP p - пи [piː]\nQ q - кью [kjuː]\nR r - а, ар [ɑː, ar]\nS s - эс [es]\nT t - ти [tiː]\nU u - ю [juː]\nV v - ви [viː]\nW w - дабл-ю [’dʌbljuː]\nX x - экс [eks]\nY y - уай [waɪ]\nZ z - зед,зи [zɛd, ziː]"
   }
 ]
