@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/to_be/index.html",
+      "/posts/to_have/index.html",
       "/posts/alphabet/index.html",
       "/posts/numbers/index.html"
     ]

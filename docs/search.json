@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Словари",
     "section": "",
-    "text": "Формы глагола to be\n\n\n\n\n\n\nnews\n\n\nverbs\n\n\n\n\n\n\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nАлфавит\n\n\n\n\n\n\nnews\n\n\nalphabet\n\n\n\n\n\n\n\n\n\nApr 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nЦифры\n\n\n\n\n\n\nnews\n\n\nnambers\n\n\n\n\n\n\n\n\n\nApr 11, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Формы глагола to be\n\n\n\n\n\n\nnews\n\n\nverbs\n\n\n\n\n\n\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nФормы глагола to have\n\n\n\n\n\n\nnews\n\n\nverbs\n\n\n\n\n\n\n\n\n\nApr 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nАлфавит\n\n\n\n\n\n\nnews\n\n\nalphabet\n\n\n\n\n\n\n\n\n\nApr 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nЦифры\n\n\n\n\n\n\nnews\n\n\nnambers\n\n\n\n\n\n\n\n\n\nApr 11, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -152,5 +152,61 @@
     "title": "Формы глагола to be",
     "section": "Глагол to be. Past Simple(прошедшее простое)",
     "text": "Глагол to be. Past Simple(прошедшее простое)\n\nУтвердительная форма глагола to be\nI was ___\nHe was ___\nShe was not ___\nIt was ___\nYou were ___\nWe were ___\nThey were ___\n\n\nОтрицательная форма глагола to be + not\nI was not ___\nHe was not ___\nShe was not ___\nIt was not ___\nYou were not ___\nWe were not ___\nThey were not ___\n\n\nВопросительная форма глагола to be\nWas I ___ ?\nWas he ___ ?\nWas she ___ ?\nWas It ___ ?\nWere you ___ ?\nWere we ___ ?\nWere they ___ ?"
+  },
+  {
+    "objectID": "posts/to_have/index.html",
+    "href": "posts/to_have/index.html",
+    "title": "Формы глагола to have",
+    "section": "",
+    "text": "I/you/we/they - have\nHe/she/it - has\n\n\n\nI/you/we/they - do not have\nHe/she/it - does not have\n\n\n\nDo I/you/we/they - have?\nDoes he/she/it - have?"
+  },
+  {
+    "objectID": "posts/to_have/index.html#настоящее",
+    "href": "posts/to_have/index.html#настоящее",
+    "title": "Формы глагола to have",
+    "section": "",
+    "text": "I/you/we/they - have\nHe/she/it - has\n\n\n\nI/you/we/they - do not have\nHe/she/it - does not have\n\n\n\nDo I/you/we/they - have?\nDoes he/she/it - have?"
+  },
+  {
+    "objectID": "posts/to_have/index.html#прошедшее",
+    "href": "posts/to_have/index.html#прошедшее",
+    "title": "Формы глагола to have",
+    "section": "Прошедшее",
+    "text": "Прошедшее\n\nУтвердительная форма\nI/you/he/she/it/we/they - had\n\n\nОтрицательная форма\nI/you/he/she/it/we/they - did not have\n\n\nВопросительная форма\nDid - I/you/he/she/it/we/they - have?"
+  },
+  {
+    "objectID": "posts/to_have/index.html#отрицательная-форма",
+    "href": "posts/to_have/index.html#отрицательная-форма",
+    "title": "Формы глагола to have",
+    "section": "Отрицательная форма",
+    "text": "Отрицательная форма\nI/you/he/she/it/we/they - did not have\n\nВопросительная форма\nDid - I/you/he/she/it/we/they - have?"
+  },
+  {
+    "objectID": "posts/to_have/index.html#будущее",
+    "href": "posts/to_have/index.html#будущее",
+    "title": "Формы глагола to have",
+    "section": "Будущее",
+    "text": "Будущее\n\nУтвердительная форма\nI/you/he/she/it/we/they - will have\n\n\nОтрицательная форма\nI/you/he/she/it/we/they - will not have\n\n\nВопросительная форма\nWill - I/you/he/she/it/we/they - have?"
+  },
+  {
+    "objectID": "posts/to_have/index.html#прошедшее-совершенное",
+    "href": "posts/to_have/index.html#прошедшее-совершенное",
+    "title": "Формы глагола to have",
+    "section": "Прошедшее совершенное",
+    "text": "Прошедшее совершенное\n\nУтвердительная форма\nI/you/he/she/it/we/they - had had\n\n\nОтрицательная форма\nI/you/he/she/it/we/they - had not had\n\n\nВопросительная форма\nHad - I/you/he/she/it/we/they - had?"
+  },
+  {
+    "objectID": "posts/to_have/index.html#настоящее-совершенное",
+    "href": "posts/to_have/index.html#настоящее-совершенное",
+    "title": "Формы глагола to have",
+    "section": "Настоящее совершенное",
+    "text": "Настоящее совершенное\n\nУтвердительная форма\nI/you/he/she/it/we/they - have had\n\n\nОтрицательная форма\nI/you/he/she/it/we/they - have not had\n\n\nВопросительная форма\nHave - I/you/he/she/it/we/they - had?"
+  },
+  {
+    "objectID": "posts/to_have/index.html#будущее-совершенное",
+    "href": "posts/to_have/index.html#будущее-совершенное",
+    "title": "Формы глагола to have",
+    "section": "Будущее совершенное",
+    "text": "Будущее совершенное\n\nУтвердительная форма\nI/you/he/she/it/we/they - will have had\n\n\nОтрицательная форма\nI/you/he/she/it/we/they - will not have had\n\n\nВопросительная форма\nWill - I/you/he/she/it/we/they - have had?\nИсточник - Онлайн школа Skysmart"
   }
 ]
