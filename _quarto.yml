@@ -10,6 +10,7 @@ website:
 
 format:
   html:
+    smaller: true
     theme: cosmo
     css: styles.css
 
