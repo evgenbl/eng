@@ -1,5 +1,6 @@
 ---
 title: "Цифры"
+date: "2024-04-11"
 categories: [news, nambers]
 page-layout: full
 title-block-banner: false
