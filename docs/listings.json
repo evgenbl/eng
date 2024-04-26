@@ -2,16 +2,17 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/get/index.html",
       "/posts/100_phrasal_verbs/index.html",
       "/posts/170_phrasal_verbs/index.html",
       "/posts/phrasal_verbs/index.html",
       "/posts/irregular_list/index.html",
       "/posts/irregular/index.html",
+      "/posts/irregular_forms/index.html",
       "/posts/to_be/index.html",
       "/posts/to_have/index.html",
-      "/posts/irregular_forms/index.html",
-      "/posts/numbers/index.html",
-      "/posts/alphabet/index.html"
+      "/posts/alphabet/index.html",
+      "/posts/numbers/index.html"
     ]
   }
 ]
