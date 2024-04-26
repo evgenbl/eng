@@ -11,7 +11,7 @@ website:
 format:
   html:
     smaller: true
-    #theme: cosmo
+    theme: cosmo
     css: styles.css
 
 
