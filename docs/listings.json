@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/transcription/transcription.html",
       "/posts/meet/index.html",
       "/posts/telephone/index.html",
       "/posts/get/index.html",
