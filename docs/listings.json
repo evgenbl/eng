@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/weekday/weekday.html",
       "/posts/transcription/transcription.html",
       "/posts/meet/index.html",
       "/posts/telephone/index.html",
@@ -11,11 +12,11 @@
       "/posts/phrasal_verbs/index.html",
       "/posts/irregular_list/index.html",
       "/posts/irregular/index.html",
-      "/posts/irregular_forms/index.html",
       "/posts/to_be/index.html",
       "/posts/to_have/index.html",
-      "/posts/alphabet/index.html",
-      "/posts/numbers/index.html"
+      "/posts/irregular_forms/index.html",
+      "/posts/numbers/index.html",
+      "/posts/alphabet/index.html"
     ]
   }
 ]
