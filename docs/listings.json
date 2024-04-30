@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/weekday/weekday.html",
+      "/posts/manths/manths.html",
       "/posts/transcription/transcription.html",
       "/posts/meet/index.html",
       "/posts/telephone/index.html",
