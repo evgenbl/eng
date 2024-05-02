@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/appearance/appearance.html",
       "/posts/profession/profession.html",
       "/posts/manths/manths.html",
       "/posts/weekday/weekday.html",
