@@ -5,7 +5,7 @@ categories: [news, irregular_verbs]
 page-layout: full
 title-block-banner: false
 toc: true
-image: "irregular_verbs.jpg"
+image: "irregular_forms.jpg"
 ---
 
 Формы неправильных глаголов
