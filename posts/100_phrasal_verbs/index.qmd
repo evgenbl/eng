@@ -1,7 +1,7 @@
 ---
 title: "100 фразовых глаголов."
 date: "2024-04-23"
-categories: [news, verbs, phrasal_verbs]
+categories: [news, phrasal_verbs]
 page-layout: full
 title-block-banner: false
 toc: true

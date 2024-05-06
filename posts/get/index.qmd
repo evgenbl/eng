@@ -1,7 +1,7 @@
 ---
 title: "Фразовые глаголы с get"
 date: "2024-04-27"
-categories: [news, verbs]
+categories: [news,  phrasal_verbs]
 page-layout: full
 title-block-banner: false
 toc: true
