@@ -1,7 +1,7 @@
 ---
 title: "Неправильные глаголы.Список."
 date: "2024-04-16"
-categories: [news, verbs, irregular]
+categories: [news, irregular_verbs]
 page-layout: full
 title-block-banner: false
 toc: true
