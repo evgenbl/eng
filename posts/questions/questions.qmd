@@ -8,6 +8,8 @@ toc: true
 image: "questions.jpg"
 ---
 
+Вопросы [ˈkwesʧən] - questions
+ 
 Where? - Где? Куда?
 
 Why? - Почему? Зачем?
