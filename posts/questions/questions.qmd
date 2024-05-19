@@ -10,23 +10,23 @@ image: "questions.jpg"
 
 Вопросы [ˈkwesʧən] - questions
  
-Where? - Где? Куда?
+Where? [weə] - Где? Куда?
 
-Why? - Почему? Зачем?
+Why? [waɪ] - Почему? Зачем?
+ 
+How? [haʊ] - Как?
+   
+Whom? [huː] - Кого? Кому?
 
-How? - Как?
+When? [wen] - Когда?
 
-Whom? - Кого? Кому?
+Which? [wɪʧ] - Который?
 
-When? - Когда?
+Who?  [huː] - Кто? Который?
 
-Which? - Который?
+Whose? [huːz] - Чей? Чья? Которого?
 
-Who? - Кто?
-
-Whose? - Чей?
-
-What? - Что? Какой?
+What? [wɒt] - Что? Какой?
 
 What has happened? - Что случилось?
 
