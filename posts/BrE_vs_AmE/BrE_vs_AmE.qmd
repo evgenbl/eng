@@ -1,7 +1,7 @@
 ---
 title: "BrE или AmE"
 date: "2024-05-20"
-categories: [news, eng]
+categories: [news, about]
 page-layout: full
 title-block-banner: false
 toc: true
