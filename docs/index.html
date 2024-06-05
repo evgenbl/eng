@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.554">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -95,6 +102,33 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -102,9 +136,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Eng</span>
     </a>
@@ -116,13 +150,13 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -132,7 +166,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(29)</span></div><div class="category" data-category="about">about <span class="quarto-category-count">(1)</span></div><div class="category" data-category="about_the_man">about_the_man <span class="quarto-category-count">(6)</span></div><div class="category" data-category="alphabet">alphabet <span class="quarto-category-count">(2)</span></div><div class="category" data-category="calendar">calendar <span class="quarto-category-count">(2)</span></div><div class="category" data-category="conversation">conversation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="dict">dict <span class="quarto-category-count">(1)</span></div><div class="category" data-category="irregular_verbs">irregular_verbs <span class="quarto-category-count">(4)</span></div><div class="category" data-category="nambers">nambers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(29)</span></div><div class="category" data-category="phrasal_verbs">phrasal_verbs <span class="quarto-category-count">(5)</span></div><div class="category" data-category="questions">questions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="verbs">verbs <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(30)</span></div><div class="category" data-category="about">about <span class="quarto-category-count">(1)</span></div><div class="category" data-category="about_the_man">about_the_man <span class="quarto-category-count">(6)</span></div><div class="category" data-category="alphabet">alphabet <span class="quarto-category-count">(2)</span></div><div class="category" data-category="calendar">calendar <span class="quarto-category-count">(2)</span></div><div class="category" data-category="conversation">conversation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="dict">dict <span class="quarto-category-count">(2)</span></div><div class="category" data-category="irregular_verbs">irregular_verbs <span class="quarto-category-count">(4)</span></div><div class="category" data-category="nambers">nambers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(30)</span></div><div class="category" data-category="phrasal_verbs">phrasal_verbs <span class="quarto-category-count">(5)</span></div><div class="category" data-category="questions">questions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="verbs">verbs <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -143,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -151,7 +185,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 
 
@@ -159,54 +195,19 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,conversation" data-listing-date-sort="1717416000000" data-listing-file-modified-sort="1717462828060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="0" data-categories="news,dict" data-listing-date-sort="1717502400000" data-listing-file-modified-sort="1717572966736" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="667">
 <div class="thumbnail">
-<p><a href="./posts/on_lessons/on_lessons.html"> <img src="./posts/on_lessons/lessons.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/kitchen/kitchen.html" class="no-external"></a></p><a href="./posts/kitchen/kitchen.html" class="no-external">
+<p><img src="./posts/kitchen/kitchen.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/kitchen/kitchen.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/on_lessons/on_lessons.html">
 <h3 class="no-anchor listing-title">
-Как говорить на занятиях
+<a href="./posts/kitchen/kitchen.html" class="no-external">кухня, продукты, посуда</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/kitchen/kitchen.html" class="no-external"></a>
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('conversation'); return false;">
-conversation
-</div>
-</div>
-<a href="./posts/on_lessons/on_lessons.html">
-<div class="listing-description">
-How to communicate in English in class [хау ту комюникейт ин инглиш ин класс]- Как общаться на занятиях
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/on_lessons/on_lessons.html">
-<div class="listing-date">
-Jun 4, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news,dict" data-listing-date-sort="1716811200000" data-listing-file-modified-sort="1717014057599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
-<div class="thumbnail">
-<p><a href="./posts/komp/komp.html"> <img src="./posts/komp/komp.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/komp/komp.html">
-<h3 class="no-anchor listing-title">
-Компьютерная терминология
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -215,33 +216,97 @@ news
 dict
 </div>
 </div>
-<a href="./posts/komp/komp.html">
 <div class="listing-description">
-Вот некоторые компьютерные термины:
+<a href="./posts/kitchen/kitchen.html" class="no-external">kitchen [ˈkɪʧɪn], food [fuːd], dishes [ˈdɪʃɪz] - кухня, продукты, посуда</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/kitchen/kitchen.html" class="no-external">
+<div class="listing-date">
+Jun 5, 2024
 </div>
 </a>
 </div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="news,conversation" data-listing-date-sort="1717416000000" data-listing-file-modified-sort="1717462828060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="265">
+<div class="thumbnail">
+<p><a href="./posts/on_lessons/on_lessons.html" class="no-external"></a></p><a href="./posts/on_lessons/on_lessons.html" class="no-external">
+<p><img src="./posts/on_lessons/lessons.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/on_lessons/on_lessons.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/on_lessons/on_lessons.html" class="no-external">Как говорить на занятиях</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/on_lessons/on_lessons.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('conversation'); return false;">
+conversation
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/on_lessons/on_lessons.html" class="no-external">How to communicate in English in class [хау ту комюникейт ин инглиш ин класс]- Как общаться на занятиях</a>
+</div>
+</div>
 <div class="metadata">
-<a href="./posts/komp/komp.html">
+<a href="./posts/on_lessons/on_lessons.html" class="no-external">
+<div class="listing-date">
+Jun 4, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="news,dict" data-listing-date-sort="1716811200000" data-listing-file-modified-sort="1717014057599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1357">
+<div class="thumbnail">
+<p><a href="./posts/komp/komp.html" class="no-external"></a></p><a href="./posts/komp/komp.html" class="no-external">
+<p><img src="./posts/komp/komp.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/komp/komp.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/komp/komp.html" class="no-external">Компьютерная терминология</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/komp/komp.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
+news
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('dict'); return false;">
+dict
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/komp/komp.html" class="no-external">Вот некоторые компьютерные термины:</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/komp/komp.html" class="no-external">
 <div class="listing-date">
 May 28, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="news,about_the_man" data-listing-date-sort="1716206400000" data-listing-file-modified-sort="1717014057597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="news,about_the_man" data-listing-date-sort="1716206400000" data-listing-file-modified-sort="1717014057597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
 <div class="thumbnail">
-<p><a href="./posts/clothes/clothes.html"> <img src="./posts/clothes/clothes.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/clothes/clothes.html" class="no-external"></a></p><a href="./posts/clothes/clothes.html" class="no-external">
+<p><img src="./posts/clothes/clothes.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/clothes/clothes.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/clothes/clothes.html">
 <h3 class="no-anchor listing-title">
-Одежда
+<a href="./posts/clothes/clothes.html" class="no-external">Одежда</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/clothes/clothes.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -250,33 +315,31 @@ news
 about_the_man
 </div>
 </div>
-<a href="./posts/clothes/clothes.html">
 <div class="listing-description">
-<mark>одежда - clothes [kləʊðz][клоутз], обувь - shoes [ʃuːz][шуиз]</mark>
+<a href="./posts/clothes/clothes.html" class="no-external"><mark>одежда - clothes [kləʊðz][клоутз], обувь - shoes [ʃuːz][шуиз]</mark></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/clothes/clothes.html">
+<a href="./posts/clothes/clothes.html" class="no-external">
 <div class="listing-date">
 May 21, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="news,about" data-listing-date-sort="1716120000000" data-listing-file-modified-sort="1717014057596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="4" data-categories="news,about" data-listing-date-sort="1716120000000" data-listing-file-modified-sort="1717014057596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
 <div class="thumbnail">
-<p><a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html"> <img src="./posts/BrE_vs_AmE/en.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html" class="no-external"></a></p><a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html" class="no-external">
+<p><img src="./posts/BrE_vs_AmE/en.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html">
 <h3 class="no-anchor listing-title">
-BrE или AmE
+<a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html" class="no-external">BrE или AmE</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -285,33 +348,31 @@ news
 about
 </div>
 </div>
-<a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html">
 <div class="listing-description">
-Что это такое? И в чем разница?
+<a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html" class="no-external">Что это такое? И в чем разница?</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html">
+<a href="./posts/BrE_vs_AmE/BrE_vs_AmE.html" class="no-external">
 <div class="listing-date">
 May 20, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="news,about_the_man" data-listing-date-sort="1716033600000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="5" data-categories="news,about_the_man" data-listing-date-sort="1716033600000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="296">
 <div class="thumbnail">
-<p><a href="./posts/relatives/relatives.html"> <img src="./posts/relatives/relatives.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/relatives/relatives.html" class="no-external"></a></p><a href="./posts/relatives/relatives.html" class="no-external">
+<p><img src="./posts/relatives/relatives.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/relatives/relatives.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/relatives/relatives.html">
 <h3 class="no-anchor listing-title">
-Родственники. Родня
+<a href="./posts/relatives/relatives.html" class="no-external">Родственники. Родня</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/relatives/relatives.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -320,33 +381,31 @@ news
 about_the_man
 </div>
 </div>
-<a href="./posts/relatives/relatives.html">
 <div class="listing-description">
-<mark>relatives [ˈrelətɪvz][релэтизъ] - родственники, родня, родные</mark>
+<a href="./posts/relatives/relatives.html" class="no-external"><mark>relatives [ˈrelətɪvz][релэтизъ] - родственники, родня, родные</mark></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/relatives/relatives.html">
+<a href="./posts/relatives/relatives.html" class="no-external">
 <div class="listing-date">
 May 19, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="news,questions" data-listing-date-sort="1715947200000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="6" data-categories="news,questions" data-listing-date-sort="1715947200000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
 <div class="thumbnail">
-<p><a href="./posts/questions/questions.html"> <img src="./posts/questions/questions.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/questions/questions.html" class="no-external"></a></p><a href="./posts/questions/questions.html" class="no-external">
+<p><img src="./posts/questions/questions.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/questions/questions.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/questions/questions.html">
 <h3 class="no-anchor listing-title">
-Вопросы
+<a href="./posts/questions/questions.html" class="no-external">Вопросы</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/questions/questions.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -355,33 +414,31 @@ news
 questions
 </div>
 </div>
-<a href="./posts/questions/questions.html">
 <div class="listing-description">
-Вопросы [ˈkwesʧən] - questions
+<a href="./posts/questions/questions.html" class="no-external">Вопросы [ˈkwesʧən] - questions</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/questions/questions.html">
+<a href="./posts/questions/questions.html" class="no-external">
 <div class="listing-date">
 May 18, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="news,about_the_man" data-listing-date-sort="1715860800000" data-listing-file-modified-sort="1717014057597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="news,about_the_man" data-listing-date-sort="1715860800000" data-listing-file-modified-sort="1717014057597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="120">
 <div class="thumbnail">
-<p><a href="./posts/appearance2/appearance2.html"> <img src="./posts/appearance2/appearance2.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/appearance2/appearance2.html" class="no-external"></a></p><a href="./posts/appearance2/appearance2.html" class="no-external">
+<p><img src="./posts/appearance2/appearance2.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/appearance2/appearance2.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/appearance2/appearance2.html">
 <h3 class="no-anchor listing-title">
-Внешний вид человека
+<a href="./posts/appearance2/appearance2.html" class="no-external">Внешний вид человека</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/appearance2/appearance2.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -390,33 +447,31 @@ news
 about_the_man
 </div>
 </div>
-<a href="./posts/appearance2/appearance2.html">
 <div class="listing-description">
-<mark>The appearance of a person - Внешний вид человека</mark>
+<a href="./posts/appearance2/appearance2.html" class="no-external"><mark>The appearance of a person - Внешний вид человека</mark></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/appearance2/appearance2.html">
+<a href="./posts/appearance2/appearance2.html" class="no-external">
 <div class="listing-date">
 May 17, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="news,conversation" data-listing-date-sort="1714910400000" data-listing-file-modified-sort="1717014057602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="8" data-categories="news,conversation" data-listing-date-sort="1714910400000" data-listing-file-modified-sort="1717014057602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="354">
 <div class="thumbnail">
-<p><a href="./posts/weekend/Weekend.html"> <img src="./posts/weekend/weekend.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/weekend/Weekend.html" class="no-external"></a></p><a href="./posts/weekend/Weekend.html" class="no-external">
+<p><img src="./posts/weekend/weekend.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/weekend/Weekend.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/weekend/Weekend.html">
 <h3 class="no-anchor listing-title">
-Выходной день
+<a href="./posts/weekend/Weekend.html" class="no-external">Выходной день</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/weekend/Weekend.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -425,33 +480,31 @@ news
 conversation
 </div>
 </div>
-<a href="./posts/weekend/Weekend.html">
 <div class="listing-description">
-Weekend [wiːkˈend] - (выходные)
+<a href="./posts/weekend/Weekend.html" class="no-external">Weekend [wiːkˈend] - (выходные)</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/weekend/Weekend.html">
+<a href="./posts/weekend/Weekend.html" class="no-external">
 <div class="listing-date">
 May 6, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="news,irregular_verbs" data-listing-date-sort="1714910400000" data-listing-file-modified-sort="1717014057596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-categories="news,irregular_verbs" data-listing-date-sort="1714910400000" data-listing-file-modified-sort="1717014057596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="155">
 <div class="thumbnail">
-<p><a href="./posts/50_irregular/50_irregular.html"> <img src="./posts/50_irregular/50_irregular.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/50_irregular/50_irregular.html" class="no-external"></a></p><a href="./posts/50_irregular/50_irregular.html" class="no-external">
+<p><img src="./posts/50_irregular/50_irregular.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/50_irregular/50_irregular.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/50_irregular/50_irregular.html">
 <h3 class="no-anchor listing-title">
-Неправильные глаголы.1 и 2 формы.
+<a href="./posts/50_irregular/50_irregular.html" class="no-external">Неправильные глаголы.1 и 2 формы.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/50_irregular/50_irregular.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -460,33 +513,31 @@ news
 irregular_verbs
 </div>
 </div>
-<a href="./posts/50_irregular/50_irregular.html">
 <div class="listing-description">
-Первая форма глагола – это форма простого настоящего времени.(Present Simple). Вторая форма глагола – это форма простого прошедшего времени.(Past Simple).
+<a href="./posts/50_irregular/50_irregular.html" class="no-external">Первая форма глагола – это форма простого настоящего времени.(Present Simple). Вторая форма глагола – это форма простого прошедшего времени.(Past Simple).</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/50_irregular/50_irregular.html">
+<a href="./posts/50_irregular/50_irregular.html" class="no-external">
 <div class="listing-date">
 May 6, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="news,phrasal_verbs" data-listing-date-sort="1714910400000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="news,phrasal_verbs" data-listing-date-sort="1714910400000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="198">
 <div class="thumbnail">
-<p><a href="./posts/shopping/shopping.html"> <img src="./posts/shopping/shopping.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/shopping/shopping.html" class="no-external"></a></p><a href="./posts/shopping/shopping.html" class="no-external">
+<p><img src="./posts/shopping/shopping.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/shopping/shopping.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/shopping/shopping.html">
 <h3 class="no-anchor listing-title">
-Фразовые глаголы (покупки)
+<a href="./posts/shopping/shopping.html" class="no-external">Фразовые глаголы (покупки)</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/shopping/shopping.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -495,33 +546,31 @@ news
 phrasal_verbs
 </div>
 </div>
-<a href="./posts/shopping/shopping.html">
 <div class="listing-description">
-<em>В магазине…</em>
+<a href="./posts/shopping/shopping.html" class="no-external"><em>В магазине…</em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/shopping/shopping.html">
+<a href="./posts/shopping/shopping.html" class="no-external">
 <div class="listing-date">
 May 6, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="news,about_the_man" data-listing-date-sort="1714824000000" data-listing-file-modified-sort="1717014057597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="11" data-categories="news,about_the_man" data-listing-date-sort="1714824000000" data-listing-file-modified-sort="1717014057597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
 <div class="thumbnail">
-<p><a href="./posts/body_parts/body_parts.html"> <img src="./posts/body_parts/body_parts.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/body_parts/body_parts.html" class="no-external"></a></p><a href="./posts/body_parts/body_parts.html" class="no-external">
+<p><img src="./posts/body_parts/body_parts.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/body_parts/body_parts.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/body_parts/body_parts.html">
 <h3 class="no-anchor listing-title">
-Тело человека
+<a href="./posts/body_parts/body_parts.html" class="no-external">Тело человека</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/body_parts/body_parts.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -530,33 +579,31 @@ news
 about_the_man
 </div>
 </div>
-<a href="./posts/body_parts/body_parts.html">
 <div class="listing-description">
-<em>Строение тела человека</em>
+<a href="./posts/body_parts/body_parts.html" class="no-external"><em>Строение тела человека</em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/body_parts/body_parts.html">
+<a href="./posts/body_parts/body_parts.html" class="no-external">
 <div class="listing-date">
 May 5, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="news,about_the_man" data-listing-date-sort="1714651200000" data-listing-file-modified-sort="1717014057597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="12" data-categories="news,about_the_man" data-listing-date-sort="1714651200000" data-listing-file-modified-sort="1717014057597" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="385">
 <div class="thumbnail">
-<p><a href="./posts/appearance/appearance.html"> <img src="./posts/appearance/appearance.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/appearance/appearance.html" class="no-external"></a></p><a href="./posts/appearance/appearance.html" class="no-external">
+<p><img src="./posts/appearance/appearance.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/appearance/appearance.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/appearance/appearance.html">
 <h3 class="no-anchor listing-title">
-Внешность человека
+<a href="./posts/appearance/appearance.html" class="no-external">Внешность человека</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/appearance/appearance.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -565,33 +612,31 @@ news
 about_the_man
 </div>
 </div>
-<a href="./posts/appearance/appearance.html">
 <div class="listing-description">
-<mark>appearance [əˈpɪərəns] - внешность</mark>
+<a href="./posts/appearance/appearance.html" class="no-external"><mark>appearance [əˈpɪərəns] - внешность</mark></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/appearance/appearance.html">
+<a href="./posts/appearance/appearance.html" class="no-external">
 <div class="listing-date">
 May 3, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="news,about_the_man" data-listing-date-sort="1714564800000" data-listing-file-modified-sort="1717014057600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="13" data-categories="news,about_the_man" data-listing-date-sort="1714564800000" data-listing-file-modified-sort="1717014057600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="676">
 <div class="thumbnail">
-<p><a href="./posts/profession/profession.html"> <img src="./posts/profession/profession.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/profession/profession.html" class="no-external"></a></p><a href="./posts/profession/profession.html" class="no-external">
+<p><img src="./posts/profession/profession.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/profession/profession.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/profession/profession.html">
 <h3 class="no-anchor listing-title">
-Профессии
+<a href="./posts/profession/profession.html" class="no-external">Профессии</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/profession/profession.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -600,33 +645,31 @@ news
 about_the_man
 </div>
 </div>
-<a href="./posts/profession/profession.html">
 <div class="listing-description">
-Profession [prəˈfeʃn] - профессия
+<a href="./posts/profession/profession.html" class="no-external">Profession [prəˈfeʃn] - профессия</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/profession/profession.html">
+<a href="./posts/profession/profession.html" class="no-external">
 <div class="listing-date">
 May 2, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="news,calendar" data-listing-date-sort="1714478400000" data-listing-file-modified-sort="1717014057599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="14" data-categories="news,calendar" data-listing-date-sort="1714478400000" data-listing-file-modified-sort="1717014057599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="726">
 <div class="thumbnail">
-<p><a href="./posts/manths/manths.html"> <img src="./posts/manths/manths.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/manths/manths.html" class="no-external"></a></p><a href="./posts/manths/manths.html" class="no-external">
+<p><img src="./posts/manths/manths.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/manths/manths.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/manths/manths.html">
 <h3 class="no-anchor listing-title">
-Название месяцев в году
+<a href="./posts/manths/manths.html" class="no-external">Название месяцев в году</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/manths/manths.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -635,33 +678,31 @@ news
 calendar
 </div>
 </div>
-<a href="./posts/manths/manths.html">
 <div class="listing-description">
-December – [dɪˈsembə(r)] – декабрь;
+<a href="./posts/manths/manths.html" class="no-external">December – [dɪˈsembə(r)] – декабрь;</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/manths/manths.html">
+<a href="./posts/manths/manths.html" class="no-external">
 <div class="listing-date">
 May 1, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="news,calendar" data-listing-date-sort="1714478400000" data-listing-file-modified-sort="1717014057602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="15" data-categories="news,calendar" data-listing-date-sort="1714478400000" data-listing-file-modified-sort="1717014057602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="482">
 <div class="thumbnail">
-<p><a href="./posts/weekday/weekday.html"> <img src="./posts/weekday/weekday.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/weekday/weekday.html" class="no-external"></a></p><a href="./posts/weekday/weekday.html" class="no-external">
+<p><img src="./posts/weekday/weekday.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/weekday/weekday.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/weekday/weekday.html">
 <h3 class="no-anchor listing-title">
-Дни недели
+<a href="./posts/weekday/weekday.html" class="no-external">Дни недели</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/weekday/weekday.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -670,33 +711,31 @@ news
 calendar
 </div>
 </div>
-<a href="./posts/weekday/weekday.html">
 <div class="listing-description">
-Начнем с названия дней недели на английском, транскрипции и перевода:
+<a href="./posts/weekday/weekday.html" class="no-external">Начнем с названия дней недели на английском, транскрипции и перевода:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/weekday/weekday.html">
+<a href="./posts/weekday/weekday.html" class="no-external">
 <div class="listing-date">
 May 1, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="news,alphabet" data-listing-date-sort="1714305600000" data-listing-file-modified-sort="1717014057602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="16" data-categories="news,alphabet" data-listing-date-sort="1714305600000" data-listing-file-modified-sort="1717014057602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="610">
 <div class="thumbnail">
-<p><a href="./posts/transcription/transcription.html"> <img src="./posts/transcription/trans.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/transcription/transcription.html" class="no-external"></a></p><a href="./posts/transcription/transcription.html" class="no-external">
+<p><img src="./posts/transcription/trans.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/transcription/transcription.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/transcription/transcription.html">
 <h3 class="no-anchor listing-title">
-Транскрипция
+<a href="./posts/transcription/transcription.html" class="no-external">Транскрипция</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/transcription/transcription.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -705,33 +744,31 @@ news
 alphabet
 </div>
 </div>
-<a href="./posts/transcription/transcription.html">
 <div class="listing-description">
-[f] — ф (энергично, слегка прикусить нижнюю губу) — forest [ˈfɒrɪst] - лес
+<a href="./posts/transcription/transcription.html" class="no-external">[f] — ф (энергично, слегка прикусить нижнюю губу) — forest [ˈfɒrɪst] - лес</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/transcription/transcription.html">
+<a href="./posts/transcription/transcription.html" class="no-external">
 <div class="listing-date">
 Apr 29, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="news,conversation" data-listing-date-sort="1714219200000" data-listing-file-modified-sort="1717014057599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="17" data-categories="news,conversation" data-listing-date-sort="1714219200000" data-listing-file-modified-sort="1717014057599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="188">
 <div class="thumbnail">
-<p><a href="./posts/meet/index.html"> <img src="./posts/meet/meet.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/meet/index.html" class="no-external"></a></p><a href="./posts/meet/index.html" class="no-external">
+<p><img src="./posts/meet/meet.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/meet/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/meet/index.html">
 <h3 class="no-anchor listing-title">
-Общие фразы для начала разговора
+<a href="./posts/meet/index.html" class="no-external">Общие фразы для начала разговора</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/meet/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -740,33 +777,31 @@ news
 conversation
 </div>
 </div>
-<a href="./posts/meet/index.html">
 <div class="listing-description">
-<em>Как начать разговор/беседу?</em>
+<a href="./posts/meet/index.html" class="no-external"><em>Как начать разговор/беседу?</em></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/meet/index.html">
+<a href="./posts/meet/index.html" class="no-external">
 <div class="listing-date">
 Apr 28, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="news,conversation" data-listing-date-sort="1714219200000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="18" data-categories="news,conversation" data-listing-date-sort="1714219200000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="318">
 <div class="thumbnail">
-<p><a href="./posts/telephone/index.html"> <img src="./posts/telephone/telephone.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/telephone/index.html" class="no-external"></a></p><a href="./posts/telephone/index.html" class="no-external">
+<p><img src="./posts/telephone/telephone.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/telephone/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/telephone/index.html">
 <h3 class="no-anchor listing-title">
-Разговор по телефону
+<a href="./posts/telephone/index.html" class="no-external">Разговор по телефону</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/telephone/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -775,33 +810,31 @@ news
 conversation
 </div>
 </div>
-<a href="./posts/telephone/index.html">
 <div class="listing-description">
-Talking on the phone
+<a href="./posts/telephone/index.html" class="no-external">Talking on the phone</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/telephone/index.html">
+<a href="./posts/telephone/index.html" class="no-external">
 <div class="listing-date">
 Apr 28, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="news,phrasal_verbs" data-listing-date-sort="1714132800000" data-listing-file-modified-sort="1717014057598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="19" data-categories="news,phrasal_verbs" data-listing-date-sort="1714132800000" data-listing-file-modified-sort="1717014057598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="687">
 <div class="thumbnail">
-<p><a href="./posts/get/index.html"> <img src="./posts/get/get.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/get/index.html" class="no-external"></a></p><a href="./posts/get/index.html" class="no-external">
+<p><img src="./posts/get/get.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/get/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/get/index.html">
 <h3 class="no-anchor listing-title">
-Фразовые глаголы с get
+<a href="./posts/get/index.html" class="no-external">Фразовые глаголы с get</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/get/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -810,33 +843,31 @@ news
 phrasal_verbs
 </div>
 </div>
-<a href="./posts/get/index.html">
 <div class="listing-description">
-get abоut – двигаться, передвигаться
+<a href="./posts/get/index.html" class="no-external">get abоut – двигаться, передвигаться</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/get/index.html">
+<a href="./posts/get/index.html" class="no-external">
 <div class="listing-date">
 Apr 27, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="news,phrasal_verbs" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1717014057595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16">
+<div class="quarto-post image-right" data-index="20" data-categories="news,phrasal_verbs" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1717014057595" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3037">
 <div class="thumbnail">
-<p><a href="./posts/100_phrasal_verbs/index.html"> <img src="./posts/100_phrasal_verbs/100.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/100_phrasal_verbs/index.html" class="no-external"></a></p><a href="./posts/100_phrasal_verbs/index.html" class="no-external">
+<p><img src="./posts/100_phrasal_verbs/100.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/100_phrasal_verbs/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/100_phrasal_verbs/index.html">
 <h3 class="no-anchor listing-title">
-100 фразовых глаголов.
+<a href="./posts/100_phrasal_verbs/index.html" class="no-external">100 фразовых глаголов.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/100_phrasal_verbs/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -845,33 +876,31 @@ news
 phrasal_verbs
 </div>
 </div>
-<a href="./posts/100_phrasal_verbs/index.html">
 <div class="listing-description">
-100 Самых “ходовых глаголов”
+<a href="./posts/100_phrasal_verbs/index.html" class="no-external">100 Самых “ходовых глаголов”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/100_phrasal_verbs/index.html">
+<a href="./posts/100_phrasal_verbs/index.html" class="no-external">
 <div class="listing-date">
 Apr 23, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="news,phrasal_verbs" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1717014057596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<div class="quarto-post image-right" data-index="21" data-categories="news,phrasal_verbs" data-listing-date-sort="1713787200000" data-listing-file-modified-sort="1717014057596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1277">
 <div class="thumbnail">
-<p><a href="./posts/170_phrasal_verbs/index.html"> <img src="./posts/170_phrasal_verbs/3.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/170_phrasal_verbs/index.html" class="no-external"></a></p><a href="./posts/170_phrasal_verbs/index.html" class="no-external">
+<p><img src="./posts/170_phrasal_verbs/3.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/170_phrasal_verbs/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/170_phrasal_verbs/index.html">
 <h3 class="no-anchor listing-title">
-170 фразовых глаголов.
+<a href="./posts/170_phrasal_verbs/index.html" class="no-external">170 фразовых глаголов.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/170_phrasal_verbs/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -880,33 +909,31 @@ news
 phrasal_verbs
 </div>
 </div>
-<a href="./posts/170_phrasal_verbs/index.html">
 <div class="listing-description">
-back away — отступать, пятиться
+<a href="./posts/170_phrasal_verbs/index.html" class="no-external">back away — отступать, пятиться</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/170_phrasal_verbs/index.html">
+<a href="./posts/170_phrasal_verbs/index.html" class="no-external">
 <div class="listing-date">
 Apr 23, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="news,phrasal_verbs" data-listing-date-sort="1713268800000" data-listing-file-modified-sort="1717014057600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="22" data-categories="news,phrasal_verbs" data-listing-date-sort="1713268800000" data-listing-file-modified-sort="1717014057600" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
 <div class="thumbnail">
-<p><a href="./posts/phrasal_verbs/index.html"> <img src="./posts/phrasal_verbs/phrasal.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/phrasal_verbs/index.html" class="no-external"></a></p><a href="./posts/phrasal_verbs/index.html" class="no-external">
+<p><img src="./posts/phrasal_verbs/phrasal.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/phrasal_verbs/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/phrasal_verbs/index.html">
 <h3 class="no-anchor listing-title">
-Фразовые глаголы.Популярные.
+<a href="./posts/phrasal_verbs/index.html" class="no-external">Фразовые глаголы.Популярные.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/phrasal_verbs/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -915,33 +942,31 @@ news
 phrasal_verbs
 </div>
 </div>
-<a href="./posts/phrasal_verbs/index.html">
 <div class="listing-description">
-get up – вставать
+<a href="./posts/phrasal_verbs/index.html" class="no-external">get up – вставать</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/phrasal_verbs/index.html">
+<a href="./posts/phrasal_verbs/index.html" class="no-external">
 <div class="listing-date">
 Apr 17, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="news,irregular_verbs" data-listing-date-sort="1713182400000" data-listing-file-modified-sort="1717014057598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="23" data-categories="news,irregular_verbs" data-listing-date-sort="1713182400000" data-listing-file-modified-sort="1717014057598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="320">
 <div class="thumbnail">
-<p><a href="./posts/irregular_list/index.html"> <img src="./posts/irregular_list/50.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/irregular_list/index.html" class="no-external"></a></p><a href="./posts/irregular_list/index.html" class="no-external">
+<p><img src="./posts/irregular_list/50.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/irregular_list/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/irregular_list/index.html">
 <h3 class="no-anchor listing-title">
-Неправильные глаголы.Список.
+<a href="./posts/irregular_list/index.html" class="no-external">Неправильные глаголы.Список.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/irregular_list/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -950,33 +975,31 @@ news
 irregular_verbs
 </div>
 </div>
-<a href="./posts/irregular_list/index.html">
 <div class="listing-description">
-be, was/were, been - быть
+<a href="./posts/irregular_list/index.html" class="no-external">be, was/were, been - быть</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/irregular_list/index.html">
+<a href="./posts/irregular_list/index.html" class="no-external">
 <div class="listing-date">
 Apr 16, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="news,verbs" data-listing-date-sort="1713096000000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="24" data-categories="news,verbs" data-listing-date-sort="1713096000000" data-listing-file-modified-sort="1717014057601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="266">
 <div class="thumbnail">
-<p><a href="./posts/to_be/index.html"> <img src="./posts/to_be/to_be.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/to_be/index.html" class="no-external"></a></p><a href="./posts/to_be/index.html" class="no-external">
+<p><img src="./posts/to_be/to_be.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/to_be/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/to_be/index.html">
 <h3 class="no-anchor listing-title">
-Формы глагола to be
+<a href="./posts/to_be/index.html" class="no-external">Формы глагола to be</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/to_be/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -985,33 +1008,31 @@ news
 verbs
 </div>
 </div>
-<a href="./posts/to_be/index.html">
 <div class="listing-description">
-I am ___
+<a href="./posts/to_be/index.html" class="no-external">I am ___</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/to_be/index.html">
+<a href="./posts/to_be/index.html" class="no-external">
 <div class="listing-date">
 Apr 15, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="news,verbs" data-listing-date-sort="1713096000000" data-listing-file-modified-sort="1717014057602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="25" data-categories="news,verbs" data-listing-date-sort="1713096000000" data-listing-file-modified-sort="1717014057602" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
 <div class="thumbnail">
-<p><a href="./posts/to_have/index.html"> <img src="./posts/to_have/have.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/to_have/index.html" class="no-external"></a></p><a href="./posts/to_have/index.html" class="no-external">
+<p><img data-src="./posts/to_have/have.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/to_have/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/to_have/index.html">
 <h3 class="no-anchor listing-title">
-Формы глагола to have
+<a href="./posts/to_have/index.html" class="no-external">Формы глагола to have</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/to_have/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -1020,33 +1041,31 @@ news
 verbs
 </div>
 </div>
-<a href="./posts/to_have/index.html">
 <div class="listing-description">
-I/you/we/they - have
+<a href="./posts/to_have/index.html" class="no-external">I/you/we/they - have</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/to_have/index.html">
+<a href="./posts/to_have/index.html" class="no-external">
 <div class="listing-date">
 Apr 15, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="news,irregular_verbs" data-listing-date-sort="1713096000000" data-listing-file-modified-sort="1717014057598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16">
+<div class="quarto-post image-right" data-index="26" data-categories="news,irregular_verbs" data-listing-date-sort="1713096000000" data-listing-file-modified-sort="1717014057598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3117">
 <div class="thumbnail">
-<p><a href="./posts/irregular/index.html"> <img data-src="./posts/irregular/irregular_verbs.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/irregular/index.html" class="no-external"></a></p><a href="./posts/irregular/index.html" class="no-external">
+<p><img data-src="./posts/irregular/irregular_verbs.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/irregular/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/irregular/index.html">
 <h3 class="no-anchor listing-title">
-Неправильные глаголы.Таблица.
+<a href="./posts/irregular/index.html" class="no-external">Неправильные глаголы.Таблица.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/irregular/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -1055,33 +1074,31 @@ news
 irregular_verbs
 </div>
 </div>
-<a href="./posts/irregular/index.html">
 <div class="listing-description">
-Таблица неправильных глаголов.
+<a href="./posts/irregular/index.html" class="no-external">Таблица неправильных глаголов.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/irregular/index.html">
+<a href="./posts/irregular/index.html" class="no-external">
 <div class="listing-date">
 Apr 15, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="news,irregular_verbs" data-listing-date-sort="1713096000000" data-listing-file-modified-sort="1717014057598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19">
+<div class="quarto-post image-right" data-index="27" data-categories="news,irregular_verbs" data-listing-date-sort="1713096000000" data-listing-file-modified-sort="1717014057598" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3684">
 <div class="thumbnail">
-<p><a href="./posts/irregular_forms/index.html"> <img data-src="./posts/irregular_forms/irregular_forms.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/irregular_forms/index.html" class="no-external"></a></p><a href="./posts/irregular_forms/index.html" class="no-external">
+<p><img data-src="./posts/irregular_forms/irregular_forms.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/irregular_forms/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/irregular_forms/index.html">
 <h3 class="no-anchor listing-title">
-Неправильные глаголы.Формы.
+<a href="./posts/irregular_forms/index.html" class="no-external">Неправильные глаголы.Формы.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/irregular_forms/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -1090,33 +1107,31 @@ news
 irregular_verbs
 </div>
 </div>
-<a href="./posts/irregular_forms/index.html">
 <div class="listing-description">
-Формы неправильных глаголов
+<a href="./posts/irregular_forms/index.html" class="no-external">Формы неправильных глаголов</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/irregular_forms/index.html">
+<a href="./posts/irregular_forms/index.html" class="no-external">
 <div class="listing-date">
 Apr 15, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="news,nambers" data-listing-date-sort="1712750400000" data-listing-file-modified-sort="1717014057599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="28" data-categories="news,nambers" data-listing-date-sort="1712750400000" data-listing-file-modified-sort="1717014057599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571">
 <div class="thumbnail">
-<p><a href="./posts/numbers/index.html"> <img data-src="./posts/numbers/numbers.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/numbers/index.html" class="no-external"></a></p><a href="./posts/numbers/index.html" class="no-external">
+<p><img data-src="./posts/numbers/numbers.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/numbers/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/numbers/index.html">
 <h3 class="no-anchor listing-title">
-Цифры
+<a href="./posts/numbers/index.html" class="no-external">Цифры</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/numbers/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -1125,33 +1140,31 @@ news
 nambers
 </div>
 </div>
-<a href="./posts/numbers/index.html">
 <div class="listing-description">
-Количественные числительные (cardinal numbers) указывают на количество объектов.
+<a href="./posts/numbers/index.html" class="no-external">Количественные числительные (cardinal numbers) указывают на количество объектов.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/numbers/index.html">
+<a href="./posts/numbers/index.html" class="no-external">
 <div class="listing-date">
 Apr 11, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="news,alphabet" data-listing-date-sort="1712750400000" data-listing-file-modified-sort="1717014057596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="29" data-categories="news,alphabet" data-listing-date-sort="1712750400000" data-listing-file-modified-sort="1717014057596" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="322">
 <div class="thumbnail">
-<p><a href="./posts/alphabet/index.html"> <img data-src="./posts/alphabet/alphabet.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./posts/alphabet/index.html" class="no-external"></a></p><a href="./posts/alphabet/index.html" class="no-external">
+<p><img data-src="./posts/alphabet/alphabet.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/alphabet/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/alphabet/index.html">
 <h3 class="no-anchor listing-title">
-Алфавит
+<a href="./posts/alphabet/index.html" class="no-external">Алфавит</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/alphabet/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -1160,14 +1173,12 @@ news
 alphabet
 </div>
 </div>
-<a href="./posts/alphabet/index.html">
 <div class="listing-description">
-a b c d e f g h i j k l m n o p q r s t u v w x y z
+<a href="./posts/alphabet/index.html" class="no-external">a b c d e f g h i j k l m n o p q r s t u v w x y z</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/alphabet/index.html">
+<a href="./posts/alphabet/index.html" class="no-external">
 <div class="listing-date">
 Apr 11, 2024
 </div>
@@ -1261,10 +1272,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1274,8 +1302,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1287,7 +1324,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1331,6 +1491,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1356,6 +1517,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1416,6 +1603,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
