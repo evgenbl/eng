@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/exclamations/exclamations.html",
       "/posts/kitchen/kitchen.html",
       "/posts/on_lessons/on_lessons.html",
       "/posts/komp/komp.html",
@@ -10,9 +11,9 @@
       "/posts/relatives/relatives.html",
       "/posts/questions/questions.html",
       "/posts/appearance2/appearance2.html",
-      "/posts/weekend/Weekend.html",
       "/posts/50_irregular/50_irregular.html",
       "/posts/shopping/shopping.html",
+      "/posts/weekend/Weekend.html",
       "/posts/body_parts/body_parts.html",
       "/posts/appearance/appearance.html",
       "/posts/profession/profession.html",
@@ -26,12 +27,12 @@
       "/posts/170_phrasal_verbs/index.html",
       "/posts/phrasal_verbs/index.html",
       "/posts/irregular_list/index.html",
-      "/posts/to_be/index.html",
-      "/posts/to_have/index.html",
       "/posts/irregular/index.html",
       "/posts/irregular_forms/index.html",
-      "/posts/numbers/index.html",
-      "/posts/alphabet/index.html"
+      "/posts/to_be/index.html",
+      "/posts/to_have/index.html",
+      "/posts/alphabet/index.html",
+      "/posts/numbers/index.html"
     ]
   }
 ]
